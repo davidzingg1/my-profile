@@ -1,0 +1,124 @@
+body {
+	background: #fafafa;
+	color: rgb(55, 55, 55);
+	font-family: 'Roboto', sans-serif;;
+	font-size: 25px;
+}
+
+h1, h2, h3{
+	color: black;
+	font-family: 'Roboto', sans-serif;: ;
+	font-size: 55px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+ }
+
+a:hover{
+
+	color: grey
+}
+
+.container{
+	width: 900px;
+	margin: 50px auto;
+	text-align: center;
+	
+}
+
+@media (max-width:960px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width:720px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width:540px){
+	.container{
+		width: 300px;
+	}
+}
+
+.card-white{
+	border-radius: 4px;
+	padding: 50px;
+	margin: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	text-align: center;
+	background-color: rgb( 240, 240, 240);
+
+}
+
+.button-black{
+	background-color: black;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 4px;
+}
+	
+.frame{
+	position: relative;
+  	width: 100%;
+  	padding-bottom: 82.5%;
+  	background: black;
+  	box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.3);
+}
+
+.mat {
+  position: absolute;
+  background: white;
+  top: 3.0303%; bottom: 3.0303%; left: 2.5%; right: 2.5%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+
+.art {
+  position: absolute;
+  top: 16.129%; bottom: 16.129%; left: 13.158%; right: 13.158%;
+}
+
+.art img {
+  width: 100%;
+}
+
+.art:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+
+}
+
+#img-round{
+
+	border-radius: 50%;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 65px;
+
+}
+
